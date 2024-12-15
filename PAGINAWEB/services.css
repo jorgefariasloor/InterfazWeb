@@ -1,0 +1,46 @@
+/* Estilo general para la sección de servicios */
+.services {
+    background-color: #f9f9f9; /* Fondo claro para contraste */
+    padding: 50px 0; /* Espaciado vertical */
+}
+
+/* Tarjetas de servicios */
+.service-card {
+    display: flex;
+    align-items: center; /* Alinear elementos verticalmente */
+    background: #fff; /* Fondo blanco */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    transition: transform 0.3s ease; /* Efecto al pasar el mouse */
+}
+
+/* Efecto hover para las tarjetas */
+.service-card:hover {
+    transform: translateY(-5px); /* Elevar ligeramente la tarjeta */
+}
+
+/* Imagen de los servicios */
+.service-card img {
+    width: 120px; /* Tamaño fijo para las imágenes */
+    height: 120px; /* Tamaño fijo */
+    object-fit: cover; /* Mantener proporción sin deformar */
+    border-radius: 50%; /* Forma circular */
+}
+
+/* Contenido de la tarjeta */
+.service-content h5 {
+    font-size: 1.2rem; /* Tamaño de fuente */
+    font-weight: bold; /* Negrita */
+    margin-bottom: 5px; /* Espaciado inferior */
+}
+
+.service-content p {
+    font-style: italic; /* Texto en cursiva */
+    color: #555; /* Color gris suave */
+}
+
+.service-content a {
+    margin-top: 10px; /* Separación del botón */
+}

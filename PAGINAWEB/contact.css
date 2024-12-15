@@ -1,0 +1,25 @@
+/* Encabezado con imagen de fondo */
+.contact-header {
+    background: url('contact-bg.jpg') no-repeat center center/cover;
+    height: 50vh; /* Altura del encabezado */
+    text-align: center;
+    color: white;
+}
+
+/* Estilo del formulario */
+.contact-form form {
+    background: #fff; /* Fondo blanco para el formulario */
+    border: 1px solid #ddd; /* Borde gris claro */
+    border-radius: 10px; /* Bordes redondeados */
+}
+
+/* Botón de enviar */
+.contact-form button {
+    background-color: #007bff; /* Azul para el botón */
+    border: none;
+    font-size: 1.2rem;
+}
+
+.contact-form button:hover {
+    background-color: #0056b3; /* Oscurecer al pasar el mouse */
+}

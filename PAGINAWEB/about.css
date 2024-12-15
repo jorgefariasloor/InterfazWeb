@@ -1,0 +1,32 @@
+/* Encabezado principal con imagen de fondo */
+.about-header {
+    /* Imagen de fondo del encabezado */
+    background: url('about-bg.jpg') no-repeat center center/cover;
+    height: 60vh; /* Altura del encabezado */
+}
+
+/* Estilo para el título principal */
+.about-header h1 {
+    font-size: 3.5rem; /* Tamaño grande para el título */
+    font-weight: bold; /* Negrita para resaltar */
+    text-transform: uppercase; /* Convertir a mayúsculas */
+}
+
+/* Estilo del separador */
+hr {
+    border: none; /* Quitar bordes predeterminados */
+    height: 2px; /* Altura del separador */
+    background-color: #f05050; /* Color personalizado */
+}
+
+/* Imagen dentro del contenido */
+img {
+    border-radius: 10px; /* Bordes redondeados para las imágenes */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave para las imágenes */
+}
+
+/* Espaciado en las secciones */
+section {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
